@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style-type:none;
+    box-sizing: border-box;
+}
+body {
+    background: #5F6472;
+} 
+#main{
+    display: flex;
+}
+img{
+    width: 300px;
+}
+
+#companies{
+    margin-top: 90px;
+    margin-left: 10px;
+    padding: 10px;
+    width: fit-content;
+    height: fit-content;
+    border: 1px black solid;
+    border-radius: 10px;
+}
+
+.listItem {
+    font-size: 25px;
+    line-height: 38px;
+    color: #979797;
+}
+
+.listItem:hover{
+    color: #FFFFFF;
+    background: #2D3038;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+#container{
+    width: 70%;
+    height:700px;
+    background-color:  #2F323A;
+    border-radius: 30px;
+    margin:90px auto;
+    padding: 30px;
+}
+
+#companyName{
+    font-size: 30px;    
+    color: #FFFFFF;
+}
+#contact, #cargo, #number, #output{
+    color: #979797;
+    font-size: 30px;
+    margin-top: 20px;
+}
+#input{
+    font-size: 25px;
+    width: 500px;
+    height: 40px;
+    padding: 10px;
+    border-radius: 12px;
+}
+#compList{
+    display: block;
+}
+
+@media only screen and (max-width: 900px) {
+    #companies{
+        margin-top: 60px;
+        margin-left: 5px;
+        padding: 8px;
+    }
+    #container{
+        width: 65%;
+        height:500px;
+        background-color:  #2F323A;
+        border-radius: 30px;
+        margin:60px auto;
+        padding: 20px;
+    }
+    #contact, #cargo, #number, #output{
+        font-size: 25px;
+        margin-top: 16px;
+    }
+    #input{
+        font-size: 22px;
+        width: 350px;
+        height: 40px;
+        padding: 6px;
+    }
+}
+@media only screen and (max-width: 620px) {
+    #main{
+        display: block;
+    }
+    #companies{
+        margin-top: 10px;
+        margin-left: 5px;
+        padding: 8px;
+    }
+    #container{
+        width: 90%;
+        height:500px;
+        background-color:  #2F323A;
+        border-radius: 30px;
+        margin:60px auto;
+        padding: 20px;
+    }
+    #input{
+        font-size: 22px;
+        width: 350px;
+        height: 40px;
+        padding: 6px;
+    }
+
+}
+@media only screen and (max-width: 444px) {
+    #companies{
+        padding: 8px;
+        margin: auto;
+    }
+    #container{
+        width: 95%;
+        height:400px;
+        margin:30px auto;
+    }
+    #contact, #cargo, #number, #output{
+        font-size: 22px;
+        margin-top: 12px;
+    }
+    #input{
+        font-size: 20px;
+        width: 280px;
+        height: 35px;
+        padding: 6px;
+    }
+}
